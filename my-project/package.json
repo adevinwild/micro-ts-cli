@@ -1,23 +1,18 @@
 {
-  "name": "micro-ts-cli",
+  "name": "my-project",
   "version": "1.0.0",
-  "repository": "https://github.com/adevinwild/micro-ts-cli",
-  "author": "adevinwild",
-  "license": "MIT",
+      "license": "MIT",
   "files": [
     "dist"
   ],
   "type": "module",
-  "source": "src/bin/cli.ts",
+  "source": "src/index.ts",
   "exports": {
     "require": "./dist/index.cjs",
     "default": "./dist/index.modern.js"
   },
-  "description": " command-line interface for quickly bootstrapping TypeScript projects with `microbundle`",
+  "description": "Project generated with micro-ts-cli",
   "main": "./dist/index.cjs",
-  "bin": {
-    "micro-ts": "./dist/bin/cli.js"
-  },
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
   "scripts": {
@@ -25,12 +20,10 @@
     "dev": "microbundle watch",
     "lint": "eslint ./src --ext .ts",
     "clean": "rimraf dist",
-    "launch": "node ./dist/index.cjs",
     "test": "jest ./tests"
   },
   "devDependencies": {
     "@types/jest": "^29.4.0",
-    "@types/node": "^18.14.1",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@typescript-eslint/parser": "^5.52.0",
     "eslint": "^8.34.0",
@@ -41,11 +34,5 @@
     "ts-jest": "^29.0.5",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5"
-  },
-  "dependencies": {
-    "gitly": "2.4.0",
-    "@clack/prompts": "^0.6.0",
-    "picocolors": "^1.0.0",
-    "replace-in-file": "^6.3.5"
   }
 }
