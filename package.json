@@ -1,6 +1,6 @@
 {
   "name": "micro-ts-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/adevinwild/micro-ts-cli",
   "author": "adevinwild",
   "license": "MIT",
@@ -42,8 +42,8 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "gitly": "2.4.0",
     "@clack/prompts": "^0.6.0",
+    "gitly": "2.4.0",
     "picocolors": "^1.0.0",
     "replace-in-file": "^6.3.5"
   }
