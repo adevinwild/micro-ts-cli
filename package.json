@@ -25,8 +25,7 @@
     "dev": "microbundle watch",
     "lint": "eslint ./src --ext .ts",
     "clean": "rimraf dist",
-    "launch": "node ./dist/index.cjs",
-    "test": "jest ./tests"
+    "launch": "node ./dist/index.cjs"
   },
   "devDependencies": {
     "@types/jest": "^29.4.0",
