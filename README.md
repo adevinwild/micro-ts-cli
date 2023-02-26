@@ -24,6 +24,12 @@
 To use `micro-ts-cli`, simply run the following command:
 
 ```bash
+npm install -g micro-ts-cli
+```
+
+And you can use it like this:
+
+```bash
 npx micro-ts-cli
 ```
 
